@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+@class SGPageTitleView;
 @interface ViewController : UIViewController
 
+@property (nonatomic, strong) SGPageTitleView *pageTitleView;
 
 @end
 
